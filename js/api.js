@@ -2,7 +2,7 @@
  * API centralizada.
  * Cole aqui a URL do Web App do Google Apps Script.
  */
-const API_URL = "https://script.google.com/macros/s/AKfycbzSbQILrWe7PS1a3RmZbmgtYEsURRt2aus0YYRD5iJfPyNp1Zi5zJEmjq7IcZsO6JZj/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbwl6JcCdRrj-pQl1RT-gXpBMDJ0jX6QSbnF782K7iq4e3bPC_M63cRxrsVLbYKE1TmY/exec";
 
 const API = {
   async get(action, params = {}) {
