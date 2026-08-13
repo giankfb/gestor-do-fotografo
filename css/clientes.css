@@ -1,0 +1,57 @@
+.clientes-container {
+
+  padding: 10px;
+
+}
+
+.clientes-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 20px;
+
+}
+
+#pesquisaCliente {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border: 1px solid #e6ebf0;
+
+  border-radius: 12px;
+
+  margin-bottom: 20px;
+
+}
+
+.cliente-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border: 1px solid #e6ebf0;
+
+  border-radius: 18px;
+
+  margin-bottom: 15px;
+
+}
+
+.cliente-card h3 {
+
+  margin-bottom: 10px;
+
+}
+
+.cliente-card p {
+
+  margin-bottom: 5px;
+
+}

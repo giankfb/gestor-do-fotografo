@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/clientes.css">
 </head>
 <body>
   <div id="app">
@@ -67,7 +68,7 @@
           </article>
           <article class="stat-card">
             <div class="stat-icon clients">♙</div>
-            <div><span>Clientes</span><strong id="statClientes">0</strong><small>ativos</small></div><a href="pages/clientes.html">Clientes</a>
+            <div><span>Clientes</span><strong id="statClientes">0</strong><small>ativos</small></div>
           </article>
           <article class="stat-card">
             <div class="stat-icon quotes">▤</div>
@@ -120,14 +121,26 @@
         </div>
       </section>
 
-      <section id="view-placeholder" class="view">
-        <div class="page-placeholder">
-          <div class="placeholder-icon">✦</div>
-          <h2 id="placeholderTitle">Módulo</h2>
-          <p>Esta área está preparada para a próxima etapa do sistema.</p>
-          <button class="secondary-button" data-view="dashboard">Voltar ao painel</button>
-        </div>
+      <section id="view-clientes" class="view">
+          <div class="clientes-container">
+              <div class="clientes-header">
+                  <h2>Clientes</h2>
+                  <button
+                      class="primary-button"
+                      id="novoCliente"
+                  >
+                      + Novo cliente
+                  </button>
+              </div>
+              <input
+                  type="text"
+                  id="pesquisaCliente"
+                  placeholder="Pesquisar cliente..."
+              >
+              <div id="listaClientes"></div>
+          </div>          
       </section>
+
     </main>
 
     <nav class="bottom-nav">
